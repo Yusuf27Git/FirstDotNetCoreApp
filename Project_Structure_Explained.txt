@@ -1,0 +1,19 @@
+-> Dependencies :- It contains all the installed NuGet packages. We can manage the NuGet packages by right clicking on it.
+
+-> Properties :- It contains launchSettings.json file which has visual studio profiles, IIS and DEBUG setting.
+
+-> wwwroot folder :- It is the web root folder of asp.net core application where we can put all the static files such as  javascript , css , images.
+
+-> Controllers: It contails all the controller class we create in our asp.net core mvc application.
+
+-> Models:- We can put all the model or view model classes inside this folder.
+
+-> Views:- We can add views for certain actions methods inside view folder. There will be seperate folder for each view we create inside Views folder.
+
+-> appsettings.json :- It is the application configuration file which is used to store configuration settings i.e connections strings of the database, global variables etc.
+
+-> Program.cs :- Initially asp.net core application starts as a console application. In the Main method it calls the CreateWebHostBuilder() method that
+ configures the asp.net core setting and launch it as asp.net core application.
+ 
+-> Startup.cs :- It contains the ConfigureServices() and Configure methods. As the name implies ConfigureServices() method configures all the services
+ which are going to used by the application. Configure method take care of all the request processing pipelines.
